@@ -18,3 +18,16 @@ $govuk-assets-path: '/govuk/assets/';
 @import "components/cookie-banner";
 
 // Add extra styles here, or re-organise the Sass files in whichever way makes most sense to you
+
+figure {
+  margin: 0 0 48px 0;
+
+  figcaption {
+    margin-top: 17px;
+    color: $govuk-secondary-text-colour;
+  }
+}
+
+img {
+  width: 100%;
+}
