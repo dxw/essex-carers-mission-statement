@@ -19,6 +19,14 @@ $govuk-assets-path: '/govuk/assets/';
 
 // Add extra styles here, or re-organise the Sass files in whichever way makes most sense to you
 
+.govuk-template__body {
+  background-color: #f3f2f0;
+}
+
+.govuk-heading-xl {
+  margin-top: 50px;
+}
+
 figure {
   margin: 0 0 48px 0;
 
@@ -31,3 +39,23 @@ figure {
 img {
   width: 100%;
 }
+
+.grey {
+  color: $govuk-secondary-text-colour
+}
+
+.commitment {
+  border-radius: 10px;
+  border: 3px solid #f5ae51;
+  margin-top: 36px;
+  padding: 24px;
+  font-weight: bold;
+  background-color: #ffffff;
+  // background-color: rgba(245, 174, 81, .85);
+  color: $govuk-text-colour;
+  font-size: 24px;
+}
+
+// mark {
+//   background-color: rgba(244, 174, 82, .25)
+// }
