@@ -44,18 +44,22 @@ img {
   color: $govuk-secondary-text-colour
 }
 
-.boxout {
-  border-radius: 10px;
-  border: 3px solid #f5ae51;
+.callout {
+  border-left: 7px solid #f5ae51;
   margin-top: 36px;
   padding: 24px;
   font-weight: bold;
   background-color: #ffffff;
-  // background-color: rgba(245, 174, 81, .85);
   color: $govuk-text-colour;
   font-size: 24px;
 }
 
-// mark {
-//   background-color: rgba(244, 174, 82, .25)
-// }
+.callout-subheading {
+  display: block;
+  color: $govuk-secondary-text-colour;
+  font-size: 16px;
+  margin-bottom: 8px;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
